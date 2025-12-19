@@ -215,7 +215,7 @@ local function makeRequiredDirectory(file, dir)
 end
 
 local TileSets = {
-	OSMTiles = { Name="OSMTiles", URLFormat="http://tile.openstreetmap.org/%z/%x/%y.png" },
+	OSMTiles = { Name="OSMTiles", URLFormat="https://tile.openstreetmap.org/%z/%x/%y.png" },
 	LynnsTiles = { Name="LynnsTiles", URLFormat="http://ldeffenb.dnsalias.net:6360/osm/%z/%x/%y.png" },
 	LocalTiles = { Name="LynnsTiles", URLFormat="http://192.168.10.8:6360/osm/%z/%x/%y.png" },
 	CTNPS = {Name='CT-NPS', URLFormat='http://s3-us-west-1.amazonaws.com/ctvisitor/nps/%z/%x/%y.png' },
